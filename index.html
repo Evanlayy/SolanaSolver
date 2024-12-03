@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Solver</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Welcome Guide Popup -->
+    <div id="welcome-popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Solana Solver!</h2>
+            <div class="popup-text">
+                <p>Here's how it works:</p>
+                <ol>
+                    <li>Solve the mathematical puzzle presented</li>
+                    <li>Enter your answer in the input field</li>
+                    <li>If correct, you'll receive a private key as reward</li>
+                </ol>
+                <p>Good luck!</p>
+            </div>
+            <button id="start-button" class="primary-button">Let's Begin!</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <h1>Solana Solver</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="puzzle-section">
+            <h2>Solve the Puzzle</h2>
+            <div class="puzzle-container">
+                <div id="puzzle-content">
+                    <!-- Puzzle content will be inserted here via JavaScript -->
+                </div>
+                <div id="reward-content" class="hidden">
+                    <!-- Reward content will be shown here after solving -->
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button id="buy-button" class="primary-button">Buy Now</button>
+            </div>
+
+            <div class="social-buttons">
+                <button class="social-button twitter">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button class="social-button telegram">
+                    <i class="fab fa-telegram"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Solana Solver. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 
